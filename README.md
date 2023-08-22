@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="150" src=""  />
+  <img height="150" src="https://github.com/ringerMW/todo-list/blob/main/img/todo_logo.png?raw=true"  />
 </div>
 
 ###
@@ -29,7 +29,7 @@
 ###
 
 <div align="center">
-  <img height="500" src=""/>
+  <img height="500" src="https://github.com/ringerMW/todo-list/blob/main/img/todo_pre.gif?raw=true"/>
 </div>
 
 ###
