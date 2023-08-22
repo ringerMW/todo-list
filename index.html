@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>Todo List App</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h2>To Do List</h2>
+			<div class="current_date"></div>
+		</header>
+
+		<div id="form-new-task">
+			<input type="text" id="input-new-task" placeholder="What do you have planned?" />
+			<input type="button" id="submit-new-task" value="+ Add task" />
+		</div>
+
+		<section class="todo-list">
+			<ul id="tasks">
+			</ul>
+		</section>
+
+		<div class="count-task">
+			<div class="text">You have 0 pending tasks</div>
+			<button class="clear-all">Clear all</button>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+	<script src="https://kit.fontawesome.com/105e91350d.js" crossorigin="anonymous"></script>
+</body>
+</html>

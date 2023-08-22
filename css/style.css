@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jost:wght@200;300;400;500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	font-family: 'Jost', sans-serif;
+	color: #41444B;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 0 15px;
+	background: #E0EAFC;
+	background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);
+	background: linear-gradient(to bottom, #CFDEF3, #E0EAFC);
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+input, button {
+	appearance: none;
+	outline: none;
+	border: none;
+	background: none;
+}
+
+.container {
+	position: relative;
+	width: 500px;
+	max-height: 750px;
+	padding: 30px;
+	border-radius: 13px;
+	background: #fff;
+	box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+}
+
+header {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #bfc0c2;
+	margin-bottom: 30px;
+}
+
+header h2 {
+	font-size: 22px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+header .current_date {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+#form-new-task {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+#input-new-task {
+	flex: 1 1 0%;
+	font-size: 14px;
+	padding: 10px 10px 10px 19px;
+	border-radius: 20px;
+	border: none;
+	margin-right: 15px;
+	-webkit-box-shadow: 0px 0px 10px -3px rgba(34, 60, 80, 0.1) inset;
+	-moz-box-shadow: 0px 0px 10px -3px rgba(34, 60, 80, 0.1) inset;
+	box-shadow: 0px 0px 10px -3px rgba(34, 60, 80, 0.1) inset;
+	background-color: #f8f8fa;
+}
+
+#input-new-task:focus {
+	border: 1px solid #c7c7c7;
+}
+
+#input-new-task::placeholder {
+	color: rgb(198, 198, 198);
+}
+
+#submit-new-task {
+	font-size: 14px;
+	font-weight: 500;
+	background: none;
+	color: #c7c7c7;
+	pointer-events: none;
+}
+
+#submit-new-task.active {
+	color: #82b1d3;
+	cursor: pointer;
+	transition: all 0.6s;
+	pointer-events: auto;
+}
+
+#submit-new-task.active:hover {
+	color:#1f76b3;
+}
+
+.todo-list {
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+#tasks li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+	background: #36D1DC;
+	background: -webkit-linear-gradient(to right, #82b1d3, #a4c6e0);
+	background: linear-gradient(to right, #82b1d3, #a4c6e0);
+}
+
+#tasks li .content {
+	max-width: 308px;
+}
+
+#tasks li .content .text {
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+	width: 100%;
+	display: block;
+	word-break:break-all;
+	transition: 0.4s;
+}
+
+#tasks li .action {
+	display: flex;
+	margin: 0;
+}
+
+#tasks li .action button {
+	cursor: pointer;
+	margin: 0 5px;
+	font-size: 16px;
+}
+
+#tasks li .action button i {
+	color: #FFFFFF;
+	transition: all 0.3s;
+}
+
+#tasks li .action button i:hover {
+	opacity: 0.6;
+}
+
+.count-task {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.count-task .text {
+	text-align: right;
+	font-size: 14px;
+	color: rgb(198, 198, 198);
+	margin-right: 15px;
+}
+
+.count-task .clear-all {
+	font-size: 14px;
+	background: none;
+	cursor: pointer;
+	color: #82b1d3;
+	transition: all 0.7s;
+}
+
+.count-task .clear-all:hover {
+	color:#1f76b3;
+}
