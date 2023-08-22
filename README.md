@@ -41,10 +41,10 @@
 <div align="left">
 You need to download the repository:
 
-`https://github.com/ringerMW/my-first-calculator/archive/refs/heads/main.zip`
+`https://github.com/ringerMW/todo-list/archive/refs/heads/main.zip`
 
 or you can clone:
-`https://github.com/ringerMW/my-first-calculator.git`
+`git clone https://github.com/ringerMW/todo-list.git`
 
 
 open the file `index.html ` - enjoy!
